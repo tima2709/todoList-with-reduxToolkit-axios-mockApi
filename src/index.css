@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 15px;
+}
+
+
+.tasks {
+  border: 1px solid #306565;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addTask {
+  display: flex;
+  justify-content: space-between;
+}
+
+.addTask input {
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.addTask button {
+  padding: 5px 20px;
+  border-radius: 8px;
+  background-color: #04b704;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.icons-btn {
+  display: flex;
+  gap: 10px;
+}
+
+.icons-btn button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.completed {
+  background-color: #04b704;
+  color: white;
+}
