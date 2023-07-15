@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 const RegisterPage = () => {
     return (
-        <div>
+        <div className={'todoList'}>
             <h1>Register</h1>
             <SingUp/>
             <p>already have an account <Link to={'/login'}>sing in</Link></p>
