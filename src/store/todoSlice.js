@@ -64,7 +64,8 @@ export const changeTodo = createAsyncThunk(
     async function (getEdit, {rejectWithValue, dispatch}) {
         try {
             const data = await axios.put(`https://648da9b72de8d0ea11e81919.mockapi.io/info/${getEdit.id}`, getEdit)
-            dispatch(editTodo(getEdit.id))
+            console.log(data)
+            dispatch(editTodo(data.data))
         } catch (error) {
             return rejectWithValue(error.message)
         }

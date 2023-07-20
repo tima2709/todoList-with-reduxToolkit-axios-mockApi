@@ -23,7 +23,7 @@ const HomePage = () => {
         dispatch(getTodos())
     }, [])
 
-    return isAuth ? (
+    return !isAuth ? (
         <div className={'todoList'}>
             <div className={'addTask'}>
                 <input

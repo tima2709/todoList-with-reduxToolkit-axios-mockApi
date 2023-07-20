@@ -22,7 +22,7 @@ const Login = () => {
                 }))
                 navigate('/')
             })
-            .catch(() => alert('Invalid user or you are not registered'))
+            .catch(() => alert('Invalid user or np'))
     }
     return (
         <div>
